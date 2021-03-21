@@ -10,3 +10,8 @@ Output should read like - "81.32 degrees fahrenheit = 27.4 degrees celsius"
 
 
 '''
+
+fahrenheit = int(input("Please enter the temperature in fahrenheit :"))
+celsius = (fahrenheit-32)*(5/9)
+
+print (fahrenheit, "degrees farhenheit =", celsius ," degrees celcius")
