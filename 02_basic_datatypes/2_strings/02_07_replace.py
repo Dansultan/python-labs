@@ -8,3 +8,8 @@ Result: #ore python progra##ing please
 
 '''
 
+sentence = input("Please write the sentence of your choice :")
+symbol = input("Please enter the symbol of your choice :")
+first_letter = sentence[0]
+print(sentence.replace(first_letter,symbol))
+

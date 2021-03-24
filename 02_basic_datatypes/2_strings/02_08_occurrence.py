@@ -7,3 +7,7 @@ Letter input: o
 Result: 4
 
 '''
+
+string = input("PLease write a sentence :")
+letter = input("Please choose a letter :")
+print(string.count(letter))

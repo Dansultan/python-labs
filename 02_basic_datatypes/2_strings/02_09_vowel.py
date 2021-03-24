@@ -6,3 +6,12 @@ CHALLENGE: Can you change the script so that it counts the occurrence of each in
            in the string and print a count for each of them?
 
 '''
+sentence = input("Please enter a sentence: ")
+i = 0
+vowels = ['a','e','i','o','u','y']
+for letter in sentence :
+    if letter in vowels:
+        i +=1
+print ("The number of vowels is : ",i)
+
+
