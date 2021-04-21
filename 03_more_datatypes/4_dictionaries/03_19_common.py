@@ -11,3 +11,18 @@ dict_2 = {"a": 2, "c": 4 , "d": 2}
 result = {"a": 3, "b": 2, "c": 7 , "d": 2}
 
 '''
+
+dict_1 = {"a": 1, "b": 2, "c": 3}
+dict_2 = {"a": 2, "c": 4 , "d": 2}
+
+result = {}
+
+for key, value in dict_1.items():
+    if key in dict_2:
+        new_key = value
+        result[key]=
+    else:
+        continue
+
+print(dict_1)
+

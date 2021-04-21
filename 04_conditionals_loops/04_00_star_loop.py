@@ -10,4 +10,10 @@ For example if n is 3, you print:
 
 '''
 
-n = 5
+n = 10
+i = 0
+
+while i<n:
+    i+=1
+    print(i*"*")
+

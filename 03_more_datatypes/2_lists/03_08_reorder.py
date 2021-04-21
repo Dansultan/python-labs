@@ -7,3 +7,8 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+numbers = list(map(int, input('Enter 10 numbers: ').split()))
+print(numbers)
+new_list = [numbers[1],numbers[3],numbers[5],numbers[7],numbers[9],numbers[8],numbers[6],numbers[4],numbers[2],numbers[0]]
+print(new_list)

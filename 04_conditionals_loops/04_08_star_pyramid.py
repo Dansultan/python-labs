@@ -17,3 +17,16 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+i = 1
+number = int(input("Please write a number : "))
+
+start, end = 0, number
+
+while i in range(start, end+1):
+    print("*"*i)
+    i+=1
+
+
+
+
+

@@ -8,3 +8,12 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+i = 0
+start, end = 0, 50
+while i in range(start,end):
+    i += 1
+    if i<10:
+        line_1 = print(i)
+        print(line1+i)
+
