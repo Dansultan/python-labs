@@ -19,6 +19,8 @@ famous_quotes = [
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
 
-for i in famous_quotes:
-    msg = f"{famous_quotes['quote']} - {famous_quotes['full_name']}"
+i = 0
+for name, quote in famous_quotes:
+    msg =  f"'{famous_quotes[i]['quote']}'-{famous_quotes[i]['full_name']}"
+    i+=1
     print(msg)
