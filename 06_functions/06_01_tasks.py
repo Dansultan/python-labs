@@ -13,3 +13,20 @@ Write a script that completes the following tasks.
 # call your functions, passing in the user input as the arguments, and set their output equal to new variables 
 
 # print your new variables to display the results
+
+def func_1(n):
+    if n%4 == 0 or n%7 == 0:
+        return True
+    else:
+        return False
+
+def func_2(n):
+    if n%4==0 and n%7==0:
+        return True
+    else:
+        return False
+
+number = int(input("Please enter a number from 1 to 1,000,000 :"))
+
+print(func_1(number))
+print(func_2(number))
