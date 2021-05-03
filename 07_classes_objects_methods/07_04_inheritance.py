@@ -18,3 +18,14 @@ CLASSES AND INHERITANCE
     Any class attributes you could add?
 
 '''
+
+class Movie:
+    def __init__(self,year,title):
+        self.year = year
+        self.title = title
+
+
+class ActionMovie(Movie):
+    def __init__(self,pg=13):
+        self.pg = pg
+
