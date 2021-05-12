@@ -6,5 +6,21 @@ with specific except statements, and continue to do the calculation
 only if neither of them applies.
 
 '''
+fin = open('integers.txt','r')
 
-file_name = 'integers.txt'
+new_list = []
+
+for number in fin:
+    new_list.append(number)
+try:
+    calculation = int(new_list[0])/2
+except ValueError:
+    print('We need a number')
+except IOError:
+    print("We can't find the number !")
+else:
+    print(calculation)
+
+
+
+

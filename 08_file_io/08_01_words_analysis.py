@@ -7,6 +7,7 @@ Write a script that reads in the words from the words.txt file and finds and pri
 
 
 '''
+import pdb; pdb.set_trace()
 
 fin = open('words.txt','r')
 list = []
@@ -25,6 +26,7 @@ print('The smallest string is:',smallest_string)
 print('The number of words is :',separate_words)
 
 fin.close()
+
 
 
 

@@ -8,3 +8,12 @@ print(list_[1])
 This raises and exception that needs to be handled.
 
 '''
+
+my_list = ["Bonjour","je","m'appelle","Dan"]
+
+try:
+    print(my_list[4])
+except IndexError:
+    print("Sorry, we can't help you")
+
+

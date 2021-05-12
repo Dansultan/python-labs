@@ -16,6 +16,8 @@ for word in list:
     reversedstring=''.join(reversed(word))
     new_list.append(reversedstring)
 
+
+
 print(new_list)
 
 fout = open('words_reverse.txt','w')
