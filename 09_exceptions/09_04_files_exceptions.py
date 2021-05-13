@@ -24,4 +24,35 @@ first 100 characters of any of the files contain the string "Prince".
 
 '''
 
-fin = open('Documents'+'books'+'war_and_peace.txt','r')
+with open('books/war_and_peace.txt','r') as first_text:
+    data_1 = first_text.read()
+
+with open('books/crime_and_punishment copy.txt','r') as second_text:
+    data_2 = second_text.read()
+
+with open('books/pride_and_prejudice.txt','r') as third_text:
+    data_3 = third_text.read()
+
+list_1 = []
+for words in data_1:
+    list_1.append(words)
+
+
+list_2 = []
+for words in data_2:
+    list_2.append(words)
+
+list_3 = []
+for words in data_3:
+    list_3.append(words)
+
+print(list_1[0])
+print(list_2[0])
+print(list_3[0])
+
+fin_2 = open('books/crime_and_punishment.txt','r+')
+text_2 = fin_2.read()
+fin_2.seek(0)
+fin_2.write('')
+fin_2.truncate()
+
